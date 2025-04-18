@@ -1,0 +1,131 @@
+.container{
+    background-image: linear-gradient(#330066 , #000033);
+    position: relative;
+    width: 300px;
+    height: 550px;
+    border-radius: 1px;
+   margin: 40px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+
+
+.main{
+    border: none;
+    border-radius: 10px;
+    margin: 40px auto;
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: 40px;
+    
+    background-image: linear-gradient(#000033 , #330066);
+  
+
+}
+.head{
+    position: absolute;
+    left:18px;
+    color: white;
+    font-size: 20px;
+    top: 5px;
+}
+.sign{
+    position: absolute;
+    left: 40px;
+    right: 200px;
+    top: 200px;
+    width: 170px;
+    height: 30px;
+    
+}
+.g{
+    position: absolute;
+   left: 3px;
+   right: 10px;
+   width: 15px;
+   height: 15px;
+
+
+}
+.git{
+    position: absolute;
+    left: 40px;
+    right: 200px;
+    top: 250px;
+    width: 170px;
+    height: 30px;
+
+}
+.hu{
+    position: absolute;
+    left: 5px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.last{
+    position: absolute;
+    right: 100px;
+    left: 60px;
+   bottom: 0%;
+    font-size: 16px;
+    color: white;
+   
+}
+.s{
+    position: absolute;
+ bottom: 21px;
+ color: rgb(182, 178, 178);
+ 
+    left: 70%;
+}
+.arrow{
+    position: absolute;
+    right: 7px;
+    left: 18px;
+    bottom: 2px;
+    top: 7px;
+   
+ 
+}
+.home{
+    position: absolute;
+    right: 6px;
+    left: 40px;
+    bottom: 2px;
+    
+    top: 7px;
+    color: white;
+    font-size: 12px;
+}
+.logo{
+    position: absolute;
+    bottom: 4px;
+    top: 5px;
+}
+@media(max-width:786px){
+   
+   .container{
+    padding: 20px;
+   }
+   .main{
+    flex-direction: column;
+   }
+    }
+    .sign:hover{
+        background-color: rgb(179, 175, 175);
+        color: rgb(255, 250, 250);
+        cursor: pointer;
+    }
+    .git:hover{
+        background-color: rgb(179, 175, 175);
+        color: white;
+        cursor: pointer;
+    }
+
